@@ -15,8 +15,8 @@ const {
   aegis
 } = require('@module-federation/aegis');
 
-function init(remotes, router) {
-  return aegis.init(remotes, router);
+function init(remotes) {
+  return aegis.init(remotes);
 }
 
 function dispose() {
